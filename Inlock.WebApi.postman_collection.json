@@ -1,0 +1,120 @@
+{
+	"info": {
+		"_postman_id": "ba2c9ed0-02c6-4e89-af2c-64dd6fbc5313",
+		"name": "Inlock.WebApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:52055/api/login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"Email\": \"admin@admin.com\",\r\n  \"Senha\": \"admin\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:52055/api/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "52055",
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:52055/api/jogo",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsImp0aSI6IjEiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiIxIiwiZXhwIjoxNTgzMjY0MTc2LCJpc3MiOiJJbkxvY2suV2ViQXBpIiwiYXVkIjoiSW5Mb2NrLldlYkFwaSJ9.-NcowT8qjSWXj0szFc6ldFyJK_YIm0l8X9i4GIW2p38",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:52055/api/jogo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "52055",
+					"path": [
+						"api",
+						"jogo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:52055/api/estudio",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsImp0aSI6IjEiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiIxIiwiZXhwIjoxNTgzMjY4MjgyLCJpc3MiOiJJbkxvY2suV2ViQXBpIiwiYXVkIjoiSW5Mb2NrLldlYkFwaSJ9.DFVOu0AQdR7nZ_F4RVnu50QtQK-0xj4lYAj18r2kHlA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:52055/api/estudio",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "52055",
+					"path": [
+						"api",
+						"estudio"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
