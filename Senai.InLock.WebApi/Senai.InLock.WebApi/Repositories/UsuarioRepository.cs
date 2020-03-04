@@ -18,7 +18,7 @@ namespace Senai.InLock.WebApi.Repositories
 
             using (SqlConnection con = new SqlConnection(StringConexao))
             {
-                string querySelectAll = "SELECT IdUsuario,Nome,Email,Usuario.IdTipoUsuario,TipoUsuario.IdTipoUsuario,Titulo FROM Usuarios INNER JOIN TipoUsuario ON Usuario.IdTipoUsuario = TipoUsuario.Usuario.IdTipoUsuario";
+                string querySelectAll = "SELECT IdUsuario,Nome,Email,Usuarios.IdTipoUsuario,TipoUsuario.IdTipoUsuario,Titulo FROM Usuarios INNER JOIN TipoUsuario ON Usuarios.IdTipoUsuario = TipoUsuario.Usuario.IdTipoUsuario";
 
                 con.Open();
 

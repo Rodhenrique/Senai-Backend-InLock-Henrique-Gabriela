@@ -9,10 +9,33 @@
             Controller responsável pelos endpoints estudios da inlock
             </summary>
         </member>
+        <member name="M:Senai.InLock.WebApi.Controllers.EstudioController.Get">
+            <summary>
+            Controller responsável pelos endpoints listar os estudios da inlock
+            </summary>
+        </member>
+        <member name="M:Senai.InLock.WebApi.Controllers.EstudioController.Post(Senai.InLock.WebApi.Domain.EstudiosDomain)">
+            <summary>
+            Controller responsável pelos endpoints cadastrar um novo estudio da inlock
+            </summary>
+        </member>
         <member name="T:Senai.InLock.WebApi.Controllers.JogoController">
             <summary>
             Controller responsável pelos endpoints jogos da inlock
             </summary>
+        </member>
+        <member name="M:Senai.InLock.WebApi.Controllers.JogoController.Get">
+            <summary>
+            Controller responsável pelos endpoints listar os jogos da inlock
+            </summary>
+            <response code="202">Returns the newly Accepted item</response>
+        </member>
+        <member name="M:Senai.InLock.WebApi.Controllers.JogoController.Post(Senai.InLock.WebApi.Domain.JogosDomain)">
+            <summary>
+            Controller responsável pelos endpoints por cadastrar novos jogos da inlock
+            </summary>
+            <response code="201">Returns the newly created item</response>
+            <response code="404">If the item is null</response> 
         </member>
         <member name="T:Senai.InLock.WebApi.Controllers.LoginController">
             <summary>
@@ -30,6 +53,26 @@
             </summary>
             <param name="login">Objeto login que contém o e-mail e a senha do usuário</param>
             <returns>Retorna um token com as informações do usuário</returns>
+        </member>
+        <member name="M:Senai.InLock.WebApi.Controllers.TipoUsuarioController.Get">
+            <summary>
+            Controller responsável pelos endpoints listar os TipoUsuario da inlock
+            </summary>
+        </member>
+        <member name="M:Senai.InLock.WebApi.Controllers.TipoUsuarioController.Post(Senai.InLock.WebApi.Domain.TipoUsuarioDomain)">
+            <summary>
+            Controller responsável pelos endpoints cadastrar um TipoUsuario da inlock
+            </summary>
+        </member>
+        <member name="M:Senai.InLock.WebApi.Controllers.UsuarioController.Get">
+            <summary>
+            Controller responsável pelos endpoints mostrar os usuarios da inlock
+            </summary>
+        </member>
+        <member name="M:Senai.InLock.WebApi.Controllers.UsuarioController.Post(Senai.InLock.WebApi.Domain.UsuariosDomain)">
+            <summary>
+            Controller responsável pelos endpoints cadastrar um novo usuario da inlock
+            </summary>
         </member>
     </members>
 </doc>

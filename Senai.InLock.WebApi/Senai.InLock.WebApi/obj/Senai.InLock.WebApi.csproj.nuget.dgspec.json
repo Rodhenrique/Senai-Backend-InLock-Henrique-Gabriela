@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\henri\\Desktop\\InLock\\Senai_InLock_Games_Henrique H\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\Senai.InLock.WebApi.csproj": {}
+    "C:\\Users\\henri\\Desktop\\Senai-Backend-InLock-Henrique-Gabriela\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\Senai.InLock.WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\henri\\Desktop\\InLock\\Senai_InLock_Games_Henrique H\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\Senai.InLock.WebApi.csproj": {
+    "C:\\Users\\henri\\Desktop\\Senai-Backend-InLock-Henrique-Gabriela\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\Senai.InLock.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\henri\\Desktop\\InLock\\Senai_InLock_Games_Henrique H\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\Senai.InLock.WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\henri\\Desktop\\Senai-Backend-InLock-Henrique-Gabriela\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\Senai.InLock.WebApi.csproj",
         "projectName": "Senai.InLock.WebApi",
-        "projectPath": "C:\\Users\\henri\\Desktop\\InLock\\Senai_InLock_Games_Henrique H\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\Senai.InLock.WebApi.csproj",
+        "projectPath": "C:\\Users\\henri\\Desktop\\Senai-Backend-InLock-Henrique-Gabriela\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\Senai.InLock.WebApi.csproj",
         "packagesPath": "C:\\Users\\henri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\henri\\Desktop\\InLock\\Senai_InLock_Games_Henrique H\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\obj\\",
+        "outputPath": "C:\\Users\\henri\\Desktop\\Senai-Backend-InLock-Henrique-Gabriela\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
